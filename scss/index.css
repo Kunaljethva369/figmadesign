@@ -1,0 +1,62 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.bgColor {
+  background-color: #26335D;
+}
+
+.header {
+  position: absolute;
+  width: 1322px;
+  height: 91px;
+  left: calc(50% - 661px);
+  top: 0px;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.header .logo {
+  font-size: 24px;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+}
+.header .menu {
+  padding-left: 41px;
+}
+.header .menu ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 21px;
+}
+.header .menu ul li {
+  width: 43px;
+  height: 24px;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+}
+.header .loginBtn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 45px;
+}
+.header .loginBtn span:first-child {
+  width: 41px;
+  height: 22px;
+}
+.header .loginBtn .btn-orange {
+  padding: 15px 25px;
+  gap: 15px;
+  background-color: #FC724D;
+  border-radius: 5px;
+  text-transform: uppercase;
+}/*# sourceMappingURL=index.css.map */
